@@ -1,3 +1,3 @@
-import my_module
+from my_module import add
 
-print(my_module.add(5, 2))
+print(add(5 , 6))
