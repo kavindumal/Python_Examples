@@ -18,3 +18,7 @@ Example:
     # Defining the public interface of the package
     __all__ = ['MyClass', 'another_function']
 """
+
+from .addition import add
+from .substraction import sub
+
