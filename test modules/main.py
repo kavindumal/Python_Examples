@@ -1,4 +1,3 @@
-from my_module import add,sub
+import main_construct
 
-print(add(5 , 6))
-print(sub(10, 6))
+print(main_construct.add(5, 6))
