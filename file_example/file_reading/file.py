@@ -5,6 +5,4 @@
 # t - Open in text mode. (default)
 
 with open('file_example/file_reading/my_file_1.txt', 'w') as file:
-    content = file.write("This is osam.\n I am learning python.\n Python is a great language.")
-    
-# No needs for file.close() as it's handle automatically by the with statement
+    file.writelines(['This is something new.\n', 'This is writelines method\n'])

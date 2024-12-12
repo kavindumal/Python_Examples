@@ -1,3 +1,2 @@
-This is osam.
- I am learning python.
- Python is a great language.
+This is something new.
+This is writelines method
