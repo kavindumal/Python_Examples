@@ -4,10 +4,8 @@
 # a - Open for appending at the end of the file without truncating it. Creates a new file if it does not exist.
 # t - Open in text mode. (default)
 
-file_1 = open("file_example/file_reading/my_files.txt","w")
-
-read_content = file_1.readlines()
-
-print(read_content, type(read_content))
-
-file_1.close()
+with open('file_example/file_reading/my_file.txt', 'r') as file:
+    content = file.read()
+    print(content)
+    
+# No needs for file.close() as it's handle automatically by the with statement
