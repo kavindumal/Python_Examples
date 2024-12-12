@@ -38,10 +38,9 @@ def save_to_json_file(file_path, data):
 def main():
     json_file_path = 'json_example/students.json'
     data = read_json_file(json_file_path)
-    add_new_student(data, 'Kavindu Malshan', 80)
+    add_new_student(data, 'Kavindu Malshan', 22)
     save_to_json_file(json_file_path, data)
     display_students_above_75(data)
     
 if __name__ == '__main__':
     main()
-    
