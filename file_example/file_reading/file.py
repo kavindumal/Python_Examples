@@ -4,8 +4,7 @@
 # a - Open for appending at the end of the file without truncating it. Creates a new file if it does not exist.
 # t - Open in text mode. (default)
 
-with open('file_example/file_reading/my_file.txt', 'r') as file:
-    content = file.read()
-    print(content)
+with open('file_example/file_reading/my_file_1.txt', 'w') as file:
+    content = file.write("This is osam.\n I am learning python.\n Python is a great language.")
     
 # No needs for file.close() as it's handle automatically by the with statement
